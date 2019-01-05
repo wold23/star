@@ -12,6 +12,7 @@
         <module>star-common</module>
         <module>star-service</module>
         <module>star-web</module>
+        <module>star-dao</module>
     </modules>
     <!--spring boot 2-->
     <parent>
