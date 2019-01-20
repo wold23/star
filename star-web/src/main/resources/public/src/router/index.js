@@ -142,6 +142,20 @@ export const asyncRouterMap = [
     ]
   },
 
+  {
+    path: '/form2',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'myForm',
+        component: () => import('@/views/form/index'),
+        meta: { title: 'my form', icon: 'form',roles:["admin"] }
+      }
+    ]
+  },
+
+
   { path: '*', redirect: '/404', hidden: true }
 ]
 

@@ -37,4 +37,12 @@ public class LoginController {
 
         return standardResult;
     }
+
+
+    @PostMapping("/user/logout")
+    public StandardResult<Map> logout(){
+        StandardResult<Map> standardResult = new StandardResult<>();
+        standardResult.setCode(20000);
+        return standardResult;
+    }
 }
