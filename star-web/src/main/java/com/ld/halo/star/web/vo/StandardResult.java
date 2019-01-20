@@ -1,4 +1,4 @@
-package com.ld.halo.star.vo;
+package com.ld.halo.star.web.vo;
 
 import lombok.Data;
 

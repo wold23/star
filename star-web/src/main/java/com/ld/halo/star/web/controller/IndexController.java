@@ -1,4 +1,4 @@
-package com.ld.halo.star.controller;
+package com.ld.halo.star.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

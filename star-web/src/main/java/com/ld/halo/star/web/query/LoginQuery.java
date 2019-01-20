@@ -1,4 +1,4 @@
-package com.ld.halo.star.query;
+package com.ld.halo.star.web.query;
 
 import lombok.Data;
 
