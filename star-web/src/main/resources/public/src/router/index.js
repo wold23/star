@@ -148,9 +148,9 @@ export const asyncRouterMap = [
     children: [
       {
         path: 'index',
-        name: 'myForm',
-        component: () => import('@/views/form/index'),
-        meta: { title: 'my form', icon: 'form',roles:["admin"] }
+        name: 'user',
+        component: () => import('@/views/user/index'),
+        meta: { title: '用户管理', icon: 'user',roles:["admin"] }
       }
     ]
   },
