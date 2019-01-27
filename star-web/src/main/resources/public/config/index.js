@@ -44,7 +44,11 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../dist/index.html'),
+    //index: path.resolve(__dirname, '../dist/index.html'),
+    /**
+     * 生成的首页文件位置
+     */
+    index: path.resolve(__dirname, '../../templates/index.html'),
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
@@ -56,8 +60,10 @@ module.exports = {
      * for example GitHub pages. If you plan to deploy your site to https://foo.github.io/bar/,
      * then assetsPublicPath should be set to "/bar/".
      * In most cases please use '/' !!!
+     *
+     * 生成的静态资源文件引用路径,可配合后台配置,获取该静态资源文件
      */
-    assetsPublicPath: '/',
+    assetsPublicPath: '/public/dist/',
 
     /**
      * Source Maps
