@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-20T15:24:45.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="pD3nJ6lviZK_jLOrtLln" version="16.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-20T16:07:40.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jk8s0nWoJyNlTadLUam9" version="16.6.1" type="github" pages="2">
   <diagram id="aBEKxp8lvVMPjmgUlP8f" name="第 1 页">
     <mxGraphModel dx="1234" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,10 +176,60 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IFapc-p7PF6p9KgeXzBz" name="第 2 页">
-    <mxGraphModel dx="1234" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_WduSyKi1DolWp738uPv-0" />
         <mxCell id="_WduSyKi1DolWp738uPv-1" parent="_WduSyKi1DolWp738uPv-0" />
+        <mxCell id="a3oRwyl63MR16ZHDhygt-9" value="变更消息" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="_WduSyKi1DolWp738uPv-1" source="a3oRwyl63MR16ZHDhygt-0" target="a3oRwyl63MR16ZHDhygt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3oRwyl63MR16ZHDhygt-10" value="变更消息" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="_WduSyKi1DolWp738uPv-1" source="a3oRwyl63MR16ZHDhygt-0" target="a3oRwyl63MR16ZHDhygt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="工单中间件" c4Container="工单核心" c4Technology="mysql" c4Description="接单服务，状态变更，&#xa;同步消息，查询" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a3oRwyl63MR16ZHDhygt-0">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="_WduSyKi1DolWp738uPv-1">
+            <mxGeometry x="330" y="300" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="a3oRwyl63MR16ZHDhygt-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="_WduSyKi1DolWp738uPv-1" source="a3oRwyl63MR16ZHDhygt-3" target="a3oRwyl63MR16ZHDhygt-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3oRwyl63MR16ZHDhygt-8" value="修改工单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a3oRwyl63MR16ZHDhygt-7">
+          <mxGeometry x="0.3646" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3oRwyl63MR16ZHDhygt-11" value="工单同步" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="_WduSyKi1DolWp738uPv-1" source="a3oRwyl63MR16ZHDhygt-3" target="a3oRwyl63MR16ZHDhygt-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="商家工单服务" c4Type="商家工单" c4Technology="ElasticSearch" c4Description="商家工单查询，商家端工单操作，工单备注，改派" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a3oRwyl63MR16ZHDhygt-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="_WduSyKi1DolWp738uPv-1">
+            <mxGeometry x="120" y="560" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="a3oRwyl63MR16ZHDhygt-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.95;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="_WduSyKi1DolWp738uPv-1" source="a3oRwyl63MR16ZHDhygt-4" target="a3oRwyl63MR16ZHDhygt-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3oRwyl63MR16ZHDhygt-6" value="修改工单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a3oRwyl63MR16ZHDhygt-5">
+          <mxGeometry x="0.2808" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3oRwyl63MR16ZHDhygt-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="_WduSyKi1DolWp738uPv-1" source="a3oRwyl63MR16ZHDhygt-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3oRwyl63MR16ZHDhygt-13" value="工单同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a3oRwyl63MR16ZHDhygt-12">
+          <mxGeometry x="-0.2361" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="服务商工单服务" c4Type="服务商工单" c4Technology="ElasticSearch" c4Description="服务商工单查询，工单操作，工单备注，履约线上化" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a3oRwyl63MR16ZHDhygt-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="_WduSyKi1DolWp738uPv-1">
+            <mxGeometry x="530" y="560" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
